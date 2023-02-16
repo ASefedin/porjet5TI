@@ -1,24 +1,26 @@
 body {
-    background-color: lavender;
+    background: linear-gradient(to bottom ,red, yellow);
     margin: 0;
     padding: 0;
 }
 main {
     width: 80%;
     margin: 0 auto;
+    
 }
 
 /* Mettre les titres h1 en couleur bleue, taille 50px et la police en Arial */
 h1 {
-    color: blue;
+    color: rgb(0, 0, 0);
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
     text-align: center;
+
 }
 
 h2 {
-    color: green;
+    color: rgb(0, 0, 0);
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: wavy underline overline;
@@ -63,7 +65,7 @@ ol li {
 }
 
 .btn-primary {
-    background-color: rgb(94, 94, 231);
+    background-color: rgb(255, 0, 0);
     color: whitesmoke;
     border: 1px solid white;
 }
@@ -76,7 +78,7 @@ ol li {
 }
 
 .btn-send {
-    background-color: rgb(9, 162, 233);
+    background-color: rgb(233, 9, 9);
     color: whitesmoke;
     border: 1px solid white;
 }
@@ -133,7 +135,7 @@ table, th, td {
 }
 
 header {
-    background-color: blue;
+    background: linear-gradient(to bottom ,yellow, red);
     margin: 0;
     padding: 10px;
 }
@@ -161,7 +163,7 @@ ul li a {
 }
 
 footer {
-    background-color: blue;
+    background: linear-gradient(to bottom ,yellow, red);
     margin: 0;
     padding: 10px;
     margin-top: 20px;
