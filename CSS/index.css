@@ -1,7 +1,9 @@
 body {
-    background: linear-gradient(to bottom ,red, yellow);
+    background: linear-gradient(to bottom ,rgb(255, 98, 98), rgb(255, 255, 104));
     margin: 0;
     padding: 0;
+    background-
+    : 50%;
 }
 main {
     width: 80%;
@@ -174,7 +176,7 @@ footer p a {
 }
 
 th {
-    background-color: aqua;
+    background-color: rgb(251, 255, 0);
 }
 
 .blocGauche {

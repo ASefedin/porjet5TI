@@ -35,8 +35,8 @@
     </header>
     <main>
         <?php
-            require_once "controllers/biensControllers.php";
-            require_once "controllers/userControllers.php";
+            require_once "controllers/combattantControllers.php";
+            require_once "controllers/utilisateursControllers.php";
         ?>
     </main>
         
