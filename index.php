@@ -1,4 +1,5 @@
 <?php
+    session_start();
     require_once "config/databaseConnexion.php";
     /*try {
         $query = "SELECT * FROM `biens`";

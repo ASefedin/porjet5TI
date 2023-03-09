@@ -20,7 +20,7 @@
             <input type="text" placeholder="Nom" class="form-control" id="Nom" name="txtNom" required <?php if (isset($_SESSION['user'])) : ?>value="<?= $_SESSION['user']->nomUser ?>" <?php endif ?>>
         </div>
         <div class="mb-3">
-            <label for="Prenom" class="form-label">Prénom</label>
+            <label for="Prenom" class="form-label">Prenom</label>
             <input type="text" placeholder="Prénom" class="form-control" id="Prenom" name="txtPrenom" required <?php if (isset($_SESSION['user'])) : ?>value="<?= $_SESSION['user']->nomUser ?>" <?php endif ?>>
         </div>
         <div class="mb-3">
@@ -33,7 +33,7 @@
         </div>
         <div class="mb-3">
             <label for="Password" class="form-label">Mot de passe</label>
-            <input type="password" placeholder="Mot de passe" class="form-control" id="Password" name="txtMp" required <?php if (isset($_SESSION['user'])) : ?>value="<?= $_SESSION['user']->passWordUser ?>" <?php endif ?>>
+            <input type="password" placeholder="Mot de passe" class="form-control" id="Password" name="txtMot_de_passe" required <?php if (isset($_SESSION['user'])) : ?>value="<?= $_SESSION['user']->Mot_de_passeUser ?>" <?php endif ?>>
         </div>
         <div>
             <button name="btnEnvoi" class="btn btn-primary">Envoyer</button>
